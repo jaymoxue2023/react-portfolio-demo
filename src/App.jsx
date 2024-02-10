@@ -16,7 +16,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <ProjectsProvider>
-        <div className="flex flex-col bg-secondary-light dark:bg-primary-dark transition duration-300 px-5">
+        <div className="flex flex-col bg-secondary-light dark:bg-primary-dark transition duration-300 px-8">
           <Router>
             <AppHeader />
             <Suspense fallback={''}>
