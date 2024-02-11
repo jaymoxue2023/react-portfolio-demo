@@ -1,13 +1,9 @@
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ProjectsContext } from '@/context/ProjectsContext';
 
 const ProjectsGrid = ({ limit }) => {
   const { projects } = useContext(ProjectsContext);
-
-  useEffect(() => {
-    console.log(projects);
-  });
 
   // If a limit is provided, slice the array of projects
   const projectsToRender = limit ? projects.slice(0, limit) : projects;
@@ -29,7 +25,7 @@ const ProjectsGrid = ({ limit }) => {
                   <img
                     src={project.img}
                     className="rounded-t-xl border-none"
-                    alt="Single Project"
+                    alt={project.title}
                   />
                 </div>
                 <div className="text-center px-4 py-6">

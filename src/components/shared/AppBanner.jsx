@@ -18,9 +18,8 @@ const AppBanner = () => {
         </p>
         <div className="flex justify-center sm:block">
           <a
-            download="Resume.pdf"
-            href="https://resume.io/resume-templates"
-            className="font-general font-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-rose-100 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-slate-50 focus:ring-1 focus:ring-rose-900 hover:bg-rose-500 text-gray-600 hover:text-white duration-500"
+            href="https://cdn.seeklearning.com.au/files/career-advice/SEEK-resume-template-1.docx"
+            className="font-general font-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-rose-100 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-slate-50 focus:ring-1 focus:ring-rose-600 hover:bg-rose-500 text-gray-600 hover:text-white duration-500"
             aria-label="Download Resume"
             target="_blank"
             rel="noreferrer"

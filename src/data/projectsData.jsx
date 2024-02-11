@@ -98,7 +98,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: 'Educational Platform for Online Learning',
+    title: 'Educational Online Learning Platform',
     category: 'EdTech',
     completionDate: '2022-09-30',
     img: UIImage2,
@@ -206,7 +206,7 @@ export const projectsData = [
   },
   {
     id: 12,
-    title: 'Educational Platform for Online Learning',
+    title: 'Educational Online Learning Platform',
     category: 'EdTech',
     completionDate: '2022-09-30',
     img: UIImage2,

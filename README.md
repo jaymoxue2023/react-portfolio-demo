@@ -62,3 +62,11 @@ pnpm i
 ```
 pnpm dev
 ```
+
+### Enhancement
+
+- Typescript support
+- Fetch data from backend API
+- Change to using Next.js framework
+- Framer motion for animation
+- Three.js for 3D

@@ -14,7 +14,7 @@ const Project = () => {
     <div className="container mx-auto mt-5 sm:mt-10">
       {/* Header */}
       <div>
-        <p className="font-general font-medium text-left text-3xl sm:text-4xl font-general font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
+        <p className="font-general font-bold text-left text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
           {matchedProject.title}
         </p>
         <div className="flex">
@@ -53,7 +53,7 @@ const Project = () => {
         <div className="w-full sm:w-1/3 text-left">
           {/* Role */}
           <div className="mb-7">
-            <p className="font-general text-2xl font-general font-semibold text-secondary-dark dark:text-primary-light mb-2">
+            <p className="font-general text-2xl font-bold text-secondary-dark dark:text-primary-light mb-2">
               Role
             </p>
             <ul className="leading-loose">
@@ -65,7 +65,7 @@ const Project = () => {
 
           {/* Tech Stacks */}
           <div className="mb-7">
-            <p className="font-general text-2xl font-general font-semibold text-secondary-dark dark:text-primary-light mb-2">
+            <p className="font-general text-2xl font-bold text-secondary-dark dark:text-primary-light mb-2">
               Tech Stacks
             </p>
             <p className="font-general text-primary-dark dark:text-ternary-light">
@@ -83,7 +83,7 @@ const Project = () => {
 
         {/* Deep Dive */}
         <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-          <p className="font-general text-primary-dark dark:text-primary-light text-2xl font-general font-bold mb-7">
+          <p className=" text-primary-dark dark:text-primary-light text-2xl font-general font-bold mb-7">
             Deep Dive
           </p>
           <p className="font-general mb-5 text-lg text-ternary-dark dark:text-ternary-light">
