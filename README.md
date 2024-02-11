@@ -17,7 +17,7 @@ This repository is a React application that serves as a personal portfolio for a
 
 ### 🖥️ Demo
 
-- [Vercel](https://react-portfolio-demo-seven.vercel.app/)
+- [Vercel](https://react-portfolio-demo-pearl.vercel.app/)
 
 - [Netlify](https://65c7740f637dc6685fa50192--melodious-cendol-185fb6.netlify.app/)
 
